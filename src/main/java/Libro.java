@@ -4,10 +4,6 @@
  */
 package comunicacion;
 
-/**
- *
- * @author paula
- */
 public class Libro extends Escrito{
     
     private String co_autor;

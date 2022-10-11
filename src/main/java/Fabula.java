@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package comunicacion;
 
-/**
- *
- * @author paula
- */
+package comunicacion;
 public class Fabula extends Escrito {
     private String ensenanza;
     private String interpretacion;
