@@ -1,6 +1,5 @@
 package comunicacion;
 public class Libro extends Escrito {
-	
 	private String co_autor;
 	private String editorial;
 	private String edicion;
@@ -14,7 +13,6 @@ public class Libro extends Escrito {
 		this.edicion = edicion;
 		this.interpretacion = interpretacion;
 	}
-
 	@Override
 	public int palabrasTotales(int parametro) {
 		return this.getPaginas() * parametro * 2;

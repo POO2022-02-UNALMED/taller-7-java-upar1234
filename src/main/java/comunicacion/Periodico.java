@@ -12,7 +12,6 @@ public class Periodico extends Escrito {
 		this.primicia = primicia;
 		this.interpretacion = interpretacion;
 	}
-
 	@Override
 	public int palabrasTotales(int parametro) {
 		return this.getPaginas() * parametro * 10;
@@ -30,7 +29,6 @@ public class Periodico extends Escrito {
 		str += this.getPrimicia();
 		return str;
 	}
-
 	public String getFecha() {
 		return fecha;
 	}

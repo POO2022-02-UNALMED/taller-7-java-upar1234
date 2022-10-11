@@ -6,7 +6,6 @@ public class Tesis extends Escrito {
 	private String conclusion;
 	private String referencias;
 	private String interpretacion;
-
 	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos,
 			String conclusion, String referencias, String interpretacion) {
 		super(origen, titulo, autor, paginas);
@@ -16,7 +15,6 @@ public class Tesis extends Escrito {
 		this.referencias = referencias;
 		this.interpretacion = interpretacion;
 	}
-
 	@Override
 	public int palabrasTotales(int parametro) {
 		return this.getPaginas() * parametro * 5;

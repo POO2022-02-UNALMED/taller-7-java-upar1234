@@ -1,6 +1,5 @@
 package comunicacion;
 public class Alfabeto extends Pictograma {
-
 	private String[] letras;
 	private String interpretacion;
 	
@@ -9,7 +8,6 @@ public class Alfabeto extends Pictograma {
 		this.letras = letras;
 		this.interpretacion = interpretacion;
 	}
-
 	public int cantidadLetras() {
 		return this.letras.length;
 	}
